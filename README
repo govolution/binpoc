@@ -12,6 +12,7 @@ Enumarates processes, from MS.
 getpidbyname.c
 Search for a process by name and returns pid.
 
+
 Notes
 Get pid on cmd: tasklist /FI "IMAGENAME eq notepad.exe"
 Some parts of the code are from syringe: https://github.com/govolution/syringe
