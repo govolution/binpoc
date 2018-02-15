@@ -1,4 +1,4 @@
-Here are some PoCs from the development of BFG.
+Here are some PoCs from the development of BFG & other stuff.
 
 inject_sc.c
 Inject shellcode into a running process. 
@@ -12,6 +12,11 @@ Enumarates processes, from MS.
 getpidbyname.c
 Search for a process by name and returns pid.
 
+hidewindow.c
+Hide and show console window.
+
+hollowing.c
+PoC for process hollowing.
 
 Notes
 Get pid on cmd: tasklist /FI "IMAGENAME eq notepad.exe"
