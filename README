@@ -18,6 +18,13 @@ Hide and show console window.
 hollowing.c
 PoC for process hollowing.
 
+hello.dll
+msfvenom -p windows/messagebox -b '\x00' -f dll -a x86 --platform Windows > hello.dll
+For testing dll loading and injection.
+
+load_dll.c
+Load and exec dll (eg hello.dll).
+
 Notes
 Get pid on cmd: tasklist /FI "IMAGENAME eq notepad.exe"
 Some parts of the code are from syringe: https://github.com/govolution/syringe
