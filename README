@@ -25,6 +25,9 @@ For testing dll loading and injection.
 load_dll.c
 Load and exec dll (eg hello.dll).
 
+inject_dll.c
+Inject a DLL into a process.
+
 Notes
 Get pid on cmd: tasklist /FI "IMAGENAME eq notepad.exe"
 Some parts of the code are from syringe: https://github.com/govolution/syringe
